@@ -1,0 +1,59 @@
+body{
+    color: aliceblue;
+    background-color: rgb(75, 75, 204);
+    
+    
+}
+.container{
+    background-color: #141424;
+    width: 45%;
+    margin: 1em auto;
+    padding: 50px;
+    font-size: larger;
+    
+}
+.top{ 
+    margin: auto;
+    width: 40%;
+    font-size: 20px;
+
+}
+input[type="text"]{ width: 100%;
+    min-height: 2em;
+}
+
+input[type="number"]{ width: 100%;
+    min-height: 2em;
+
+}
+select[id="dropdown"]{ width: 100%;
+    height: 2.5em;
+}
+textarea{ width: 100%;
+    min-height: 3em;
+    vertical-align: right;
+
+}
+
+button[id="submit"]{
+    display: block;
+    width: 100%;
+    height: 3em;
+    background-color: rgb(5, 158, 25);
+    cursor: pointer;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+head {
+    display: none;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
